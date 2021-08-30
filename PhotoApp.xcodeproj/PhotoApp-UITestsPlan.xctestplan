@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "375CEDDF-198B-4EA9-BA5C-B8D1ED71A04E",
+      "name" : "Configuration 1",
+      "options" : {
+        "uiTestingScreenshotsLifetime" : "deleteOnSuccess"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:PhotoApp.xcodeproj",
+      "identifier" : "A972315C26DC7D820023254D",
+      "name" : "PhotoApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:PhotoApp.xcodeproj",
+        "identifier" : "A972317826DC7E900023254D",
+        "name" : "PhotoAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
